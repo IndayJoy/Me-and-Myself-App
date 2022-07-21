@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "421734727057",
+    "project_id": "projectsirjeff",
+    "storage_bucket": "projectsirjeff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421734727057:android:d879f28a77c42c7e526e30",
+        "android_client_info": {
+          "package_name": "com.eapp.sirjefffharthart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421734727057-inblj98brbk1jg811ofkv8c8nf557ivu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhAs8yTbbyX1mUItFWsksyZdmdMIfqlS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421734727057-inblj98brbk1jg811ofkv8c8nf557ivu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/mountain6"
+    android:orientation="vertical"
+    tools:context=".Male_dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:background="@drawable/round_white_corners"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:text="User"
+                    android:textAllCaps="true"
+                    android:gravity="left"
+                    android:textColorHint="#A1887F"
+                    android:textSize="15sp"
+                    android:verticalScrollbarPosition="right" />
+                <TextView
+                    android:id="@+id/mobUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="User"
+                    android:textAllCaps="true"
+                    android:gravity="left"
+                    android:textColorHint="#A1887F"
+                    android:textSize="10sp"
+                    android:verticalScrollbarPosition="right" />
+
+                <TextView
+                    android:id="@+id/emailUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="left"
+                    android:text="User"
+                    android:textColor="@color/black"
+                    android:textColorHint="#A1887F"
+                    android:textSize="10sp"
+                    android:verticalScrollbarPosition="right" />
+
+                <TextView
+                    android:id="@+id/edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="left"
+                    android:text="Edit profile"
+                    android:textColor="@color/colorDivider"
+                    android:textColorHint="#A1887F"
+                    android:textSize="10sp"
+                    android:verticalScrollbarPosition="right" />
+
+                <TextView
+                    android:id="@+id/logoutBtn"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"
+                    android:adjustViewBounds="true"
+                    android:padding="8dp"
+                    android:text="Logout"
+                    android:textColor="@color/primary" />
+            </RelativeLayout>
+        <TextView
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="View your History"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColorHint="#A1887F"
+            android:textSize="10sp"
+            android:verticalScrollbarPosition="right" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:shadowColor="#020202"
+            android:text="Activity for today"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textColorHint="#A1887F"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:verticalScrollbarPosition="right" />
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:src="@drawable/ic_baseline_refresh_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:progressDrawable="@drawable/custom_progressbar_bg" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="17dp"
+                    android:padding="8dp"
+                    android:src="@drawable/image1" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:progressDrawable="@drawable/custom_progressbar_bg" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="false"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:padding="8dp"
+                    android:src="@drawable/image2" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/progress3"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:progressDrawable="@drawable/custom_progressbar_bg" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="11dp"
+                    android:padding="8dp"
+                    android:src="@drawable/image3" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/startProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="Next"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:background="@drawable/gradient"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/hobbies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="Next"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:background="@drawable/gradient"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="Next"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:background="@drawable/gradient"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

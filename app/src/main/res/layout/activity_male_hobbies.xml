@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Male_Hobbies"
+    android:background="@drawable/patern1"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="388dp"
+            android:layout_height="228dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/bike" />
+
+        <EditText
+            android:id="@+id/today"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/btn"
+            android:background="@drawable/round_white_corners"
+            android:textSize="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"/>
+        <EditText
+            android:id="@+id/hob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:padding="10dp"
+            android:background="@drawable/round_white_corners"
+            android:hint="Enter your Hobbies"/>
+        <TextView
+            android:id="@+id/sample"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowRadius="@integer/material_motion_duration_medium_2"
+            android:text="My Hobbies"/>
+        <TextView
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+            android:background="@drawable/gradient"
+            android:text="Reset"/>
+        <ListView
+            android:id="@+id/lv_data"
+            android:background="@drawable/gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:scrollbars="vertical"
+            android:choiceMode="multipleChoice"/>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

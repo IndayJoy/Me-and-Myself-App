@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/bluepink"
+    android:orientation="vertical"
+    tools:context=".Checklist_Female">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="388dp"
+            android:layout_height="228dp"
+            android:src="@drawable/badminton"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity for Today"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:id="@+id/refresh1"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:src="@drawable/ic_baseline_refresh_24" />
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/today1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:visibility="invisible"/>
+        <CheckBox
+            android:id="@+id/act11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/gradient_female"
+            android:text="Activity for Today"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/act12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/gradient_female2"
+            android:text="Activity for Today"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/act13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/gradient_female"
+            android:text="Activity for Today"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/act14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/gradient_female2"
+            android:text="Activity for Today"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/Record1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/gradient3"
+            android:visibility="invisible"
+            android:text="Record"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient"
+                android:padding="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Back"/>
+            <TextView
+                android:id="@+id/set1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient"
+                android:padding="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Set Activity"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
